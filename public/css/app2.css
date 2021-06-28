@@ -1,0 +1,49 @@
+.topheader {
+	background-image: url('/images/Header.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.boxbox {
+	margin:10px;
+	display:inline-block;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.125);
+	padding: 10px;
+}
+
+.box2 {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.details {
+	white-space: normal;
+	margin-top: 10px;
+}
+
+footer {
+	height: 130px;
+	background-color: #0d5689;
+    border-top: solid 5px #ebad05;
+	box-sizing: border-box;
+    align-items: center;
+  text-align:center;
+}
+
+footer p {
+	margin: 7px;
+	color:white;
+	text-align :center;
+	font-family: Open Sans, Arial;
+    font-size: 20px;
+    color: white;
+}
